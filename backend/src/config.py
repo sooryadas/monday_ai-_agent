@@ -9,7 +9,7 @@ DEALS_BOARD_ID = os.getenv("DEALS_BOARD_ID", "")
 WORK_ORDERS_BOARD_ID = os.getenv("WORK_ORDERS_BOARD_ID", "")
 
 MONDAY_API_URL = "https://api.monday.com/v2"
-GROQ_MODEL = "openai/gpt-oss-120b"
+GROQ_MODEL = "llama-3.3-70b-versatile"
 
 SYSTEM_PROMPT = """You are a Business Intelligence Agent with direct access to Monday.com data.
 

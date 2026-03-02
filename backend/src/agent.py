@@ -103,7 +103,7 @@ def run_agent(user_message: str) -> dict:
     }
 
 
-def _trim_result(result: dict, max_items: int = 30, max_chars: int = 4000) -> str:
+def _trim_result(result: dict, max_items: int = 30, max_chars: int = 2000) -> str:
     """
     Trim tool result before sending to model to stay under token limits.
     Caps item lists at max_items rows and the JSON string at max_chars chars.
