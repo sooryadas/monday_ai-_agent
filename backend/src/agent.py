@@ -2,7 +2,7 @@ import json
 import groq
 from src.config import GROQ_API_KEY, GROQ_MODEL, SYSTEM_PROMPT
 from src.tools import TOOLS, resolve_board_id
-import monday
+from src import monday
 
 
 client = groq.Groq(api_key=GROQ_API_KEY)
